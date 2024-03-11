@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { colors, numbers } from "./../data.js"; //si puo usare anche export default, per esportare esclusiavamente
 // la costante senza usare le parentesi graffe, export default si usa solo per una costante  o un oggetto.
+=======
+import { colors, numbers, students } from "./../data.js";
+>>>>>>> 63a5dbc86f72b6a95e1c1fef4e94ac88f12b7129
 
 let result = [];
 
@@ -49,6 +53,15 @@ const [first, second, ...rest] = colors;
 // result = numbers.reduce((acc, number) => acc + number, 0);
 // 12. sort()
 // result = students.sort((a, b) => a.first_name.localeCompare(b.first_name));
+// result = students.sort((a, b) => {
+//   if (a.age > b.age) {
+//     return 1;
+//   } else if (a.age < b.age) {
+//     return -1;
+//   } else {
+//     return 0;
+//   }
+// });
 //reDesign with destructuring and callback function
 // 13. reverse()
 // result = students.reverse();

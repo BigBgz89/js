@@ -1,8 +1,12 @@
 export const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
+<<<<<<< HEAD
 export const randomNumbers = [...Array(10)].map(() =>
   Math.floor(Math.random() * 10)
 );
+=======
+export const randomNumbers = [...Array(10)].map(() => Math.floor(Math.random() * 10));
+>>>>>>> 63a5dbc86f72b6a95e1c1fef4e94ac88f12b7129
 
 export const colors = [
   { id: 1, name: "red" },
