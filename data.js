@@ -1,8 +1,10 @@
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+export const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-const randomNumbers = [...Array(10)].map(() => Math.floor(Math.random() * 10));
+export const randomNumbers = [...Array(10)].map(() =>
+  Math.floor(Math.random() * 10)
+);
 
-const colors = [
+export const colors = [
   { id: 1, name: "red" },
   { id: 2, name: "green" },
   { id: 3, name: "blue" },
@@ -12,10 +14,10 @@ const colors = [
   { id: 7, name: "black" },
   { id: 8, name: "white" },
   { id: 9, name: "brown" },
-  { id: 10, name: "gray" }
+  { id: 10, name: "gray" },
 ];
 
-const students = [
+export const students = [
   {
     id: 1,
     first_name: "Leah",
@@ -24,7 +26,7 @@ const students = [
     username: "LeahRowntree",
     password: "Password1",
     email: "lrowntree0@washingtonpost.com",
-    gender: "Genderqueer"
+    gender: "Genderqueer",
   },
   {
     id: 2,
@@ -34,7 +36,7 @@ const students = [
     username: "DottiMcClaren",
     password: "Passwor",
     email: "dmcclaren1@wired.com",
-    gender: "Female"
+    gender: "Female",
   },
   {
     id: 3,
@@ -44,7 +46,7 @@ const students = [
     username: "OpalineHeald",
     password: "Password3",
     email: "oheald2@dagondesign.com",
-    gender: "Female"
+    gender: "Female",
   },
   {
     id: 4,
@@ -54,7 +56,7 @@ const students = [
     username: "OndreaBony",
     password: "OndreaBony12345",
     email: "obony3@scribd.com",
-    gender: "Female"
+    gender: "Female",
   },
   {
     id: 5,
@@ -64,6 +66,6 @@ const students = [
     username: "HeathZorzin",
     password: "Password5",
     email: "hzorzin4@ed.gov",
-    gender: "Male"
-  }
+    gender: "Male",
+  },
 ];

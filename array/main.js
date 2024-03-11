@@ -1,29 +1,33 @@
+import { colors, numbers } from "./../data.js"; //si puo usare anche export default, per esportare esclusiavamente
+// la costante senza usare le parentesi graffe, export default si usa solo per una costante  o un oggetto.
+
 let result = [];
 
 // destructuring and spread operator
 
-// const [first, second, ...rest] = colors;
-// console.log(first);
-// console.log(second);
-// console.log(rest);
+//const firstColor = colors[0];
+const [first, second, ...rest] = colors;
+ console.log(first);
+ console.log(second);
+ console.log(rest);
 
-// const newColors = [...colors, { id: 11, name: "pink" }];
-// console.log(newColors);
+ const newColors = [...colors, { id: 11, name: "pink" }];
+ console.log(newColors);
 
-// const [firstSrudent, secondStudent, ...restStudents] = students;
-// const { first_name, last_name, age } = firstSrudent;
-// const { first_name, last_name, age } = secondStudent;
+ const [firstSrudent, secondStudent, ...restStudents] = students;
+ const { first_name, last_name, age } = firstSrudent;
+ const { first_name, last_name, age } = secondStudent;
 
 // <------------------------------------------------------------>
 // <------------------------------------------------------------>
 
 // How to use array functions
 
-// 1. push()
-// numbers.push(5);
-// colors.push({ id: 11, name: "pink" });
-// 2. pop()
-// colors.pop();
+ //1. push()
+ //numbers.push(5);
+ //colors.push({ id: 11, name: "pink" });
+ //2. pop()
+ //colors.pop();
 // 3. unshift()
 //numbers.unshift(0);
 // colors.unshift({ id: 0, name: "violet" });
